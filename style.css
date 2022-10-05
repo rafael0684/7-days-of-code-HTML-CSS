@@ -1,0 +1,234 @@
+:root {
+    font-family: "Inter", sans-serif;
+  }
+  a {
+    all: unset;
+    font-family: "Inter", sans-serif;
+  }
+  
+  .navbar {
+    margin: 1em 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5em;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2em;
+    margin-left: 5rem;
+  }
+  .nav-link--item {
+    font-weight: 500;
+    font-size: 16px;
+    color: #667085;
+    margin: 0;
+    cursor: pointer;
+  }
+  .nav-link--item:hover {
+    opacity: 0.5;
+  }
+  
+  .botao-principal {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    background-color: #8e2424;
+    border: 0;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    color: #ffffff;
+  }
+  .botao-principal:hover {
+    background-color: #ffffff;
+    color: #8e2424;
+    border: 1px solid;
+    border-color: #8e2424;
+  }
+  .botao-secundario {
+    margin-left: auto;
+    margin-right: 2em;
+  }
+  
+  .cabecalho {
+    margin: 3rem auto;
+    padding: 3em;
+    max-width: 791px;
+    /*   width: 42%; */
+    text-align: center;
+    font-weight: 600;
+  }
+  .cabecalho p {
+    color: #8e2424;
+    font-size: 16px;
+  }
+  .cabecalho h2 {
+    font-size: 48px;
+    margin: 1em 0;
+    color: #101828;
+  }
+  .cabecalho h6 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #667085;
+  }
+  .metricas {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10em;
+    gap: 2em;
+  }
+  .metricas-card {
+    width: calc(100% / 4);
+  }
+  .metricas-card--titulo {
+    font-weight: 600;
+    font-size: 60px;
+    color: #8e2424;
+  }
+  .metricas-card--subtitulo {
+    font-weight: 500;
+    font-size: 18px;
+    color: #101828;
+    margin: 1em 0;
+  }
+  .vagas {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
+  }
+  .vagas-talentos {
+    margin-top: 5em;
+  }
+  .vagas-talentos--badge {
+    display: inline;
+    color: #8e2424;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: #8e24240d;
+    padding: 0.5em 1em;
+    border-radius: 16px;
+  }
+  .vagas-talentos--titulo {
+    font-weight: 600;
+    font-size: 2em;
+    color: #101828;
+    margin: 1em 0;
+  }
+  .vagas-talentos--subtitulo {
+    font-weight: 400;
+    font-size: 20px;
+    color: #667085;
+    margin-bottom: 3em;
+  }
+  .vagas-talentos--banner {
+    width: 100%;
+  }
+  .vagas-abertas {
+    margin: 5em auto;
+    width: 80%;
+  }
+  .vagas-card {
+    margin: auto;
+    max-width: 768px;
+    /*   width: 50%; */
+    margin-bottom: 6em;
+  }
+  .vagas-card--titulo {
+    margin-bottom: 1em;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .vagas-card--jobpost {
+    border: 1px solid #eaecf0;
+    border-radius: 16px;
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+  }
+  .jobpost-titulo {
+    font-weight: 500;
+    font-size: 18px;
+    color: #101828;
+    margin-bottom: 1.5em;
+  }
+  .jobpost-details {
+    display: flex;
+    font-weight: 500;
+    color: #667085;
+  }
+  .jobpost-jobtype {
+    margin-right: 2em;
+  }
+  .depoimentos-card {
+    background-color: #c3191908;
+    margin: auto;
+    max-width: 1088px;
+    /*   width: 70%; */
+    text-align: center;
+    padding: 5em 0;
+    border-radius: 16px;
+  }
+  .depoimentos-card--subtitulo {
+    color: #8e2424;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .depoimentos-card--quote {
+    font-weight: 500;
+    font-size: 2em;
+    margin: 1em 0;
+    padding: 0 3em;
+    color: #101828;
+  }
+  .depoimento-card--avatar-nome {
+    font-weight: 500;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+  .depoimento-card--avatar-descricao {
+    font-size: 14px;
+    font-weight: 400;
+    color: #667085;
+  }
+  .formulario {
+    background-color: #f9fafb;
+    text-align: center;
+    padding: 5em 0;
+    margin: 5em 0 0 0;
+  }
+  .formulario-heading {
+    font-weight: 600;
+    font-size: 2em;
+    color: #101828;
+  }
+  .formulario-descricao {
+    margin: 1em 0;
+    font-weight: 400;
+    font-size: 20px;
+    color: #667085;
+  }
+  .formulario-input {
+    all: unset;
+    border: 1px solid #eaecf0;
+  
+    border-radius: 8px;
+    width: 360px;
+    padding: 0.5em 0.75em;
+    text-align: left;
+    margin-right: 0.75em;
+  }
+  .footer-text {
+    color: #98a2b3;
+    margin: 1.5em;
+    margin-bottom: 0;
+  }
+  
